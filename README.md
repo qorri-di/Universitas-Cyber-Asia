@@ -17,5 +17,5 @@
   <li>S</li>
   <li>S</li>
   <li>K</li>
-  <li>E/li>
+  <li>E</li>
 </ul>
