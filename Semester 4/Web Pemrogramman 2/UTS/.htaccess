@@ -1,0 +1,17 @@
+RewriteEngine On
+RewriteBase /siakad/
+
+RewriteRule ^mahasiswa$ index.php?menu=mahasiswa [QSA,L]
+RewriteRule ^mahasiswa/create$ index.php?menu=mahasiswa&action=create [QSA,L]
+RewriteRule ^mahasiswa/edit/([0-9]+)$ index.php?menu=mahasiswa&action=edit&id=$1 [QSA,L]
+RewriteRule ^mahasiswa/delete/([0-9]+)$ index.php?menu=mahasiswa&action=delete&id=$1 [QSA,L]
+
+RewriteRule ^dosen$ index.php?menu=dosen [QSA,L]
+RewriteRule ^dosen/create$ index.php?menu=dosen&action=create [QSA,L]
+RewriteRule ^dosen/edit/([0-9]+)$ index.php?menu=dosen&action=edit&id=$1 [QSA,L]
+RewriteRule ^dosen/delete/([0-9]+)$ index.php?menu=dosen&action=delete&id=$1 [QSA,L]
+
+RewriteRule ^matakuliah$ index.php?menu=matakuliah [QSA,L]
+RewriteRule ^matakuliah/create$ index.php?menu=matakuliah&action=create [QSA,L]
+RewriteRule ^matakuliah/edit/([0-9]+)$ index.php?menu=matakuliah&action=edit&id=$1 [QSA,L]
+RewriteRule ^matakuliah/delete/([0-9]+)$ index.php?menu=matakuliah&action=delete&id=$1 [QSA,L]
