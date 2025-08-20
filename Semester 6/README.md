@@ -1,4 +1,4 @@
-# Semester 5
+# Semester 6
 
 | No | Subject                                        | Link |
 |----|------------------------------------------------|------|
@@ -8,4 +8,4 @@
 | 4  | Proyek Perancangan dan Pengembangan Teknologi Informasi dan Komunikasi                      |      |
 | 5  | Metodologi Penelitian Teknologi Informasi    |      |
 | 6  | Pemrograman Bergerak                         |      |
-| 7  | Sistem Multimedia                            |      |
+| 7  | Kerja Praktek                           |      |
